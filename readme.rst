@@ -17,5 +17,12 @@ Para usar localmente é importante alterar os dados do banco de dados em Applica
 ************
 Utilizado
 ************
-PHP, HTML 5, Ajax, Padrão REST para API. Padrão de arquitetura MVC.
+PHP, HTML 5, Ajax, Javascript, CSS3 e JQuery. Padrão REST para API. Padrão de arquitetura MVC.
 Framework Codeigniter com implementação de terceiros `para trabalhar com REST <https://github.com/chriskacerguis/codeigniter-restserver>`_
+
+Somente para ficar mais agradável, visto que não pretendo fazer o teste para Frontend, usei as biliotecas: Bootstrap e Datatable.
+
+************
+Possíveis Melhorias
+************
+Com mais tempo é possível usar sockets para listar em tempo real os novos registros, também seria possível usar paginação com AJAX, para não listar todos os itens a cada chamada.

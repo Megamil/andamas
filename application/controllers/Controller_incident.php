@@ -8,7 +8,8 @@ use Restserver\Libraries\REST_Controller;
 class Controller_incident extends REST_Controller {
 
     //Construtor chamando a model que será usada
-    function __construct() {
+    function __construct() 
+    {
         parent::__construct();
         $this->load->model('model_incident');
     }

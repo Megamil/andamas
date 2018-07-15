@@ -83,4 +83,18 @@
 
         }
 
+        /*
+            Função que lista todos Atendentes
+        */
+        public function getUsers(){
+            return $this->db->query("select id, nome from atendentes")->result();
+        }
+
+        /*
+            Função que lista todos clientes
+        */
+        public function getClients(){
+            return $this->db->query("select id, nome from clientes")->result();  
+        }
+
     }
